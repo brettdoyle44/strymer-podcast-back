@@ -1,4 +1,4 @@
-<% project_name = 'rails-api' %>
+<% project_name = 'strymer-podcast-back' %>
 
 default: &default
   adapter: postgresql

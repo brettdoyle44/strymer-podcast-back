@@ -1,0 +1,26 @@
+{
+  "count": 1,
+  "next_offset": 1,
+  "total": 1,
+  "took": 0.015,
+  "results": [{
+    "rss": "https://www.listennotes.com/c/r/282e0f819eae4272a7ce84605312cc45",
+    "description_highlighted": "...The Voice of Esports highlights the pioneers of one of today\u2019s hottest lifestyle categories as legendary esports industry expert, commentator and host Paul \u201cRedeye\u201d Chaloner entices legends of esports to lift the lid on what\u2019s gone before, and what\u2019s to come. Featured shows will include appearances from the fiercest competitors, luminaries of the scene and those behind it, world champions, on screen talent and those tastemakers who push this exciting industry forward. This show is designed to provide in-depth insights on those who are driving the global esports industry.\u201d Brought to you by Subnation \u2013 The Culture of Gaming.",
+    "description_original": "The Voice of Esports highlights the pioneers of one of today\u2019s hottest lifestyle categories as legendary esports industry expert, commentator and host Paul \u201cRedeye\u201d Chaloner entices legends of esports to lift the lid on what\u2019s gone before, and what\u2019s to come. Featured shows will include appearances from the fiercest competitors, luminaries of the scene and those behind it, world champions, on screen talent and those tastemakers who push this exciting industry forward. This show is designed to provide in-depth insights on those who are driving the global esports industry.\u201d Brought to you by Subnation \u2013 The Culture of Gaming.",
+    "title_highlighted": "<span class=\"ln-search-highlight\">The</span> <span class=\"ln-search-highlight\">Voice</span> <span class=\"ln-search-highlight\">Of</span> <span class=\"ln-search-highlight\">Esports</span> with ReDeYe",
+    "title_original": "The Voice Of Esports with ReDeYe",
+    "publisher_highlighted": "Westwood One / Subnation",
+    "publisher_original": "Westwood One / Subnation",
+    "image": "https://cdn-images-1.listennotes.com/podcasts/the-voice-of-esports-with-redeye-mi8C7Rg-KBU-iz4ArF-v8yK.300x300.jpg",
+    "thumbnail": "https://cdn-images-1.listennotes.com/podcasts/the-voice-of-esports-with-redeye-mi8C7Rg-KBU-iz4ArF-v8yK.300x300.jpg",
+    "itunes_id": 1468366899,
+    "latest_pub_date_ms": 1563532200000,
+    "earliest_pub_date_ms": 1560460995000,
+    "id": "282e0f819eae4272a7ce84605312cc45",
+    "genre_ids": [77, 78],
+    "listennotes_url": "https://www.listennotes.com/c/282e0f819eae4272a7ce84605312cc45/",
+    "total_episodes": 5,
+    "email": "WWOPodcasts@westwoodone.com",
+    "explicit_content": false
+  }]
+}

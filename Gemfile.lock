@@ -63,6 +63,8 @@ GEM
       dotenv (= 2.2.2)
       railties (>= 3.2, < 6.0)
     erubi (1.7.1)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -85,6 +87,7 @@ GEM
     mini_mime (1.0.1)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
+    multipart-post (2.1.1)
     nio4r (2.3.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
@@ -194,6 +197,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.11)
   byebug (~> 10.0.0)
   dotenv-rails (~> 2.2.1)
+  faraday
   listen (~> 3.1.5)
   pg (~> 0.21)
   pry (~> 0.11.3)
@@ -212,4 +216,4 @@ RUBY VERSION
    ruby 2.5.0p0
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
