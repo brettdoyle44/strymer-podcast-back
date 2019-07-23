@@ -2,5 +2,5 @@
 
 class User < ApplicationRecord
   include Authentication
-  has_many :podcasts
+  has_many :playlists
 end

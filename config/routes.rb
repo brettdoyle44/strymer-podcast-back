@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :playlist_podcasts, except: %i[new edit]
+  resources :playlists, except: %i[new edit]
   resources :episodes, except: %i[new edit]
   resources :podcasts, except: %i[new edit]
   # RESTful routes
