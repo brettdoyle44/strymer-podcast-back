@@ -1,9 +1,9 @@
-class PlaylistPodcastsController < ApplicationController
+class PlaylistPodcastsController < ProtectedController
   before_action :set_playlist_podcast, only: [:show, :update, :destroy]
 
   # GET /playlist_podcasts
   def index
-    @playlist_podcasts = PlaylistPodcast.all
+    @playlist_podcasts = current_user.playlist_podcasts
 
     render json: @playlist_podcasts
   end
@@ -15,7 +15,7 @@ class PlaylistPodcastsController < ApplicationController
 
   # POST /playlist_podcasts
   def create
-    @playlist_podcast = PlaylistPodcast.new(playlist_podcast_params)
+    @playlist_podcast = current_user.playlist_podcasts.build(playlist_podcast_params)
 
     if @playlist_podcast.save
       render json: @playlist_podcast, status: :created, location: @playlist_podcast
@@ -41,7 +41,7 @@ class PlaylistPodcastsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_playlist_podcast
-      @playlist_podcast = PlaylistPodcast.find(params[:id])
+      @playlist_podcast = current_user.playlist_podcasts.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
